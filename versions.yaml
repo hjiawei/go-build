@@ -7,6 +7,6 @@ golang:
       ppc64le: e3b926c81e8099d3cee6e6e270b85b39c3bd44263f8d3df29aacb4d7e00507c8
       s390x: 6bd72fcef72b046b6282c2d1f2c38f31600e4fe9361fcd8341500c754fb09c38
 kubernetes:
-  version: 1.30.5
+  version: 1.30.7
 llvm:
   version: 18.1.8
