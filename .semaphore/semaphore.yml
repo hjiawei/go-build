@@ -38,8 +38,8 @@ promotions:
   - name: Publish calico/go-build images
     pipeline_file: promotions/go-build.yml
     auto_promote:
-      # release branch name example: 1.23.3-llvm18.1.8-k8s1.30.5
-      when: "branch =~ 'master|\\d\\.\\d+\\.\\d-llvm\\d+\\.\\d\\.\\d-k8s\\d\\.\\d+\\.\\d'"
+      # release tag name example: 1.23.3-llvm18.1.8-k8s1.30.5
+      when: "branch = 'master' OR tag =~ '^1\\.\\d+\\.\\d-llvm\\d+\\.\\d\\.\\d-k8s1\\.\\d+\\.\\d'"
 
 blocks:
   - name: calico/go-build image
