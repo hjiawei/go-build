@@ -1,6 +1,6 @@
 [![Build Status](https://tigera.semaphoreci.com/badges/go-build/branches/master.svg?style=shields)](https://tigera.semaphoreci.com/projects/go-build)
 
-# Calico go-build
+# Calico go-build xx
 
 Calico go-build image holds Go and Clang toolchains and necessary utilities for building various [Calico](https://projectcalico.org) projects.
 
